@@ -19,7 +19,7 @@ public class Console {
                 System.out.println("Erro ao tentar ler valor: O valor precisa ser inteiro.");
                 System.out.print("Digite novamente: ");
      
-            } finally { // executando o códigho ou capturando exceção, o que está aqui será executado
+            } finally { // executando o código ou capturando exceção, o que está aqui será executado
                 leitor.nextLine();
             }
         }
